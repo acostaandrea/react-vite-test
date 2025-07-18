@@ -1,3 +1,11 @@
-test('demo', () => {
-    expect(1 + 1).toBe(2);
+describe('Pruebas en demo', () => {
+    test('demo', () => {
+        // inicializacion
+        const message1 = 'Hola Mundo';
+        //estimulo
+        const message2 = message1.trim();
+        //observacion del comportamiento esperado
+        expect(message1).toBe(message2);
+
+    });
 });
